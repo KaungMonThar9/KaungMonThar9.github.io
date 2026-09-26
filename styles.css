@@ -21,6 +21,10 @@ main {
   font-size: large;
 }
 
+.about-me-img {
+  width: 600px;
+}
+
 .navbar {
   border-bottom: 1px solid black;
   width: 100%;
@@ -30,11 +34,12 @@ main {
 .navbar ul {
   display: flex;
   list-style-type: none;
-  gap: 5vw;
+  gap: 3vw;
+  padding-left: 5vw;
 }
 
 a {
-  color: black;
+  color: blue;
 }
 
 a:visited {
@@ -48,5 +53,5 @@ a:visited {
 .footer small {
   display: flex;
   gap: 1vw;
-  padding: 1vh 1vw;
+  padding: 1vh 5vw;
 }
