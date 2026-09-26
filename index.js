@@ -44,6 +44,7 @@ let funFact = [
 let funFactBtn = document.getElementById("fun-fact-btn");
 let funFactText = document.getElementById("fun-fact-text");
 
+/* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random */
 if (funFactBtn && funFactText) {
   funFactBtn.addEventListener("click", function () {
     let randomNum = Math.floor(Math.random() * funFact.length);
