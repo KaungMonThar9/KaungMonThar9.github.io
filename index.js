@@ -34,7 +34,7 @@ document.getElementById("footer").innerHTML = `
 
 let funFact = [
   "I've only had half of my wisdom teeth removed!",
-  "I can speak conversational chinese! (Thanks to the chinese aunties at the wet markets)",
+  "I can speak conversational Chinese! (Thanks to the chinese aunties at the wet markets)",
   "I have a love hate situationship with sparkling water.",
   "I used to play competitive chess.",
   "I have an unhealthy relationship with reading.",
