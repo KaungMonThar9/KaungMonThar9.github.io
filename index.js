@@ -16,7 +16,7 @@ document.getElementById("navbar").innerHTML = `
      https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/footer
 */
 document.getElementById("footer").innerHTML = `
-<footer>
+<footer class="footer">
   <small>
     Kaung Mon Thar
     <a href="mailto:thark@rose-hulman.edu" target="_blank">Email</a>
@@ -27,7 +27,7 @@ document.getElementById("footer").innerHTML = `
     >
     <a href="https://www.linkedin.com/in/kaungmonthar" target="_blank"
       >LinkedIn</a
-    ></small
-  >
+    >
+    </small>
 </footer>
 `;
