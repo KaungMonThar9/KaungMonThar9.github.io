@@ -31,3 +31,25 @@ document.getElementById("footer").innerHTML = `
     </small>
 </footer>
 `;
+
+let funFact = [
+  "I've only had half of my wisdom teeth removed!",
+  "I can speak conversational chinese! (Thanks to the chinese aunties at the wet markets)",
+  "I have a love hate situationship with sparkling water.",
+  "I used to play competitive chess.",
+  "I have an unhealthy relationship with reading.",
+  "I've visited 7 different countries!",
+];
+
+let funFactBtn = document.getElementById("fun-fact-btn");
+let funFactText = document.getElementById("fun-fact-text");
+
+if (funFactBtn && funFactText) {
+  funFactBtn.addEventListener("click", function () {
+    let randomNum = Math.floor(Math.random() * funFact.length);
+    while (funFactText.innerText === funFact[randomNum]) {
+      randomNum = Math.floor(Math.random() * funFact.length);
+    }
+    funFactText.innerText = funFact[randomNum];
+  });
+}

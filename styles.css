@@ -8,8 +8,10 @@ main {
   padding: 2vh 5vw;
 }
 
-.project-flexbox {
+.flexbox {
   display: flex;
+}
+.project-box {
   gap: 5%;
   justify-content: space-around;
   margin-bottom: 10vh;
@@ -26,7 +28,6 @@ main {
 .about-me-img {
   width: 600px;
 }
-
 .navbar {
   border-bottom: 1px solid black;
   width: 100%;
@@ -56,4 +57,25 @@ a:visited {
   display: flex;
   gap: 1vw;
   padding: 1vh 5vw;
+}
+
+h3 {
+  margin-bottom: 0.2vh;
+}
+
+h4 {
+  margin-top: 0;
+}
+
+#about-me-box {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#fun-fact-btn {
+  border: none;
+  border-radius: 10px;
+  height: 5vh;
+  background-color: purple;
+  color: white;
 }
